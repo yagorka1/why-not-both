@@ -1,0 +1,43 @@
+<!-- Ambient orbs -->
+<div class="bg-orb bg-orb--left"></div>
+<div class="bg-orb bg-orb--right"></div>
+
+<!-- Main game UI -->
+<div class="game-ui" *ngIf="!gameService.isEnded()">
+  <app-header />
+
+  <app-question-counter
+    [current]="gameService.questionNumber()"
+  />
+
+  <div class="question-wrap">
+    <div class="cards">
+      <app-card
+        [option]="gameService.currentQuestion().optionLeft"
+        [side]="OptionSide.LEFT"
+        [animationDelay]="leftCardDelay"
+        (selected)="onCardSelected($event)"
+      />
+
+        <div class="vs">VS</div>
+
+      <app-card
+        [option]="gameService.currentQuestion().optionRight"
+        [side]="OptionSide.RIGHT"
+        [animationDelay]="rightCardDelay"
+        (selected)="onCardSelected($event)"
+      />
+    </div>
+  </div>
+</div>
+
+<!-- Chosen overlay -->
+<app-chosen-overlay
+  [visible]="gameService.isChosen()"
+  [side]="gameService.chosenSide()"
+  [option]="gameService.chosenOption()"
+  (next)="onNext()"
+/>
+
+<!-- End screen -->
+<app-end-screen *ngIf="gameService.isEnded()" (restart)="onRestart()" />

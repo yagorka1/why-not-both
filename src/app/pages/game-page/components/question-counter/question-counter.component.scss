@@ -1,0 +1,15 @@
+.counter {
+  position: relative;
+  z-index: 1;
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+  animation: fadeDown 0.8s 0.15s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.counter__current {
+  color: var(--accent-right);
+  font-weight: 600;
+}

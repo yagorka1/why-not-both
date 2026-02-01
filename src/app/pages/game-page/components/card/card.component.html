@@ -1,0 +1,9 @@
+<button
+  class="card"
+  [ngClass]="{ 'card--left': isLeft(), 'card--right': isRight() }"
+  [ngStyle]="animationStyle()"
+  (click)="onClick()"
+>
+  <div class="card__icon">{{ option().icon }}</div>
+  <div class="card__label">{{ option().label }}</div>
+</button>

@@ -1,0 +1,14 @@
+<div
+  class="chosen-overlay"
+  [ngClass]="{
+    show: visible(),
+    'color-left': side() === OptionSide.LEFT,
+    'color-right': side() === OptionSide.RIGHT
+  }"
+>
+  <div class="chosen-overlay__icon">{{ option()?.icon }}</div>
+
+  <div class="chosen-overlay__text">{{ option()?.label }}</div>
+  
+  <button class="chosen-overlay__btn" (click)="onNext()">Далее →</button>
+</div>

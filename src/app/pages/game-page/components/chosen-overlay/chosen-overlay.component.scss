@@ -1,0 +1,91 @@
+.chosen-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(10, 10, 15, 0.92);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease;
+
+  &.show {
+    display: flex;
+  }
+}
+
+.chosen-overlay__icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.8rem;
+  margin-bottom: 28px;
+  animation: popIn 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  .color-left & {
+    background: rgba(255, 92, 92, 0.18);
+    box-shadow: 0 0 60px var(--glow-left);
+  }
+
+  .color-right & {
+    background: rgba(92, 224, 255, 0.18);
+    box-shadow: 0 0 60px var(--glow-right);
+  }
+}
+
+.chosen-overlay__title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  animation: popIn 0.5s 0.1s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  .color-left & {
+    color: var(--accent-left);
+  }
+
+  .color-right & {
+    color: var(--accent-right);
+  }
+}
+
+.chosen-overlay__text {
+  font-size: 1.1rem;
+  color: var(--text);
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 340px;
+  line-height: 1.5;
+  animation: popIn 0.5s 0.2s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.chosen-overlay__btn {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding: 14px 40px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition:
+    background 0.3s,
+    border-color 0.3s,
+    transform 0.2s;
+  animation: popIn 0.5s 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.04);
+  }
+}

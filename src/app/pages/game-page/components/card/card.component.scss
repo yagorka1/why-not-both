@@ -1,0 +1,120 @@
+.card {
+  position: relative;
+  flex: 1 1 260px;
+  max-width: 320px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 24px;
+  padding: 44px 32px;
+  text-align: center;
+  cursor: pointer;
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+  overflow: hidden;
+  animation: cardIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: 680px) {
+    padding: 24px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 24px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+  }
+
+  &--left::before {
+    background: radial-gradient(ellipse at center, var(--glow-left), transparent 70%);
+  }
+
+  &--right::before {
+    background: radial-gradient(ellipse at center, var(--glow-right), transparent 70%);
+  }
+
+  &:hover {
+    transform: translateY(-6px) scale(1.02);
+    border-color: rgba(255, 255, 255, 0.14);
+
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  &--left:hover {
+    box-shadow: 0 12px 60px var(--glow-left);
+    border-color: var(--accent-left);
+  }
+
+  &--right:hover {
+    box-shadow: 0 12px 60px var(--glow-right);
+    border-color: var(--accent-right);
+  }
+}
+
+.card__icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 22px;
+  font-size: 1.8rem;
+  position: relative;
+  z-index: 1;
+
+  .card--left & {
+    background: rgba(255, 92, 92, 0.12);
+  }
+
+  .card--right & {
+    background: rgba(92, 224, 255, 0.12);
+  }
+
+  @media (max-width: 680px) {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.card__label {
+  position: relative;
+  z-index: 1;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--text);
+}
+
+.card__tag {
+  display: inline-block;
+  margin-top: 16px;
+  position: relative;
+  z-index: 1;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+
+  .card--left & {
+    color: var(--accent-left);
+    background: rgba(255, 92, 92, 0.1);
+  }
+
+  .card--right & {
+    color: var(--accent-right);
+    background: rgba(92, 224, 255, 0.1);
+  }
+}

@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  angular-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: angular-ssr-app
+
+    ports:
+      - "4000:4000"
+
+    environment:
+      - NODE_ENV=production
+      # - API_URL=https://api.example.com
+      # - DATABASE_URL=postgres://...
+
+    restart: unless-stopped
+
+    # deploy:
+    #   resources:
+    #     limits:
+    #       cpus: '1'
+    #       memory: 512M
+    #     reservations:
+    #       cpus: '0.5'
+    #       memory: 256M

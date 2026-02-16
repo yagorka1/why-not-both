@@ -2,54 +2,224 @@ import { Question } from '../interfaces/question.interface';
 
 export const QUESTIONS: Question[] = [
   {
-    optionLeft: {
-      icon: '🌊',
-      label: 'У моря — рассветы над водой, солёный воздух и бесконечный горизонт',
-    },
-    optionRight: {
-      icon: '🏔️',
-      label: 'В горах — тишина на высоте, звёздное небо и крепкий горный воздух',
-    },
+    optionLeft: { icon: '🌊', label: 'QUESTIONS.Q1.LEFT' },
+    optionRight: { icon: '🏔️', label: 'QUESTIONS.Q1.RIGHT' },
   },
   {
-    optionLeft: {
-      icon: '⚡',
-      label: 'Молниеносная скорость — мгновенно оказаться где угодно',
-    },
-    optionRight: {
-      icon: '🧠',
-      label: 'Телепатия — читать мысли и понимать людей без слов',
-    },
+    optionLeft: { icon: '⚡', label: 'QUESTIONS.Q2.LEFT' },
+    optionRight: { icon: '🧠', label: 'QUESTIONS.Q2.RIGHT' },
   },
   {
-    optionLeft: {
-      icon: '🚀',
-      label: 'Астронавт — исследовать просторы космоса и открывать новые миры',
-    },
-    optionRight: {
-      icon: '🎨',
-      label: 'Художник — создавать красоту и оставлять след в искусстве',
-    },
+    optionLeft: { icon: '🚀', label: 'QUESTIONS.Q3.LEFT' },
+    optionRight: { icon: '🎨', label: 'QUESTIONS.Q3.RIGHT' },
   },
   {
-    optionLeft: {
-      icon: '⚔️',
-      label: 'Средние века — рыцари, замки и романтика средневекового времени',
-    },
-    optionRight: {
-      icon: '🌌',
-      label: 'Далёкое будущее — летающие города и межгалактические путешествия',
-    },
+    optionLeft: { icon: '⚔️', label: 'QUESTIONS.Q4.LEFT' },
+    optionRight: { icon: '🌌', label: 'QUESTIONS.Q4.RIGHT' },
   },
   {
-    optionLeft: {
-      icon: '📚',
-      label: 'Читать книги в тихой библиотеке с кружкой горячего кофе',
-    },
-    optionRight: {
-      icon: '🎵',
-      label: 'Играть на музыкальном инструменте до утра, забыв обо всём',
-    },
+    optionLeft: { icon: '📚', label: 'QUESTIONS.Q5.LEFT' },
+    optionRight: { icon: '🎵', label: 'QUESTIONS.Q5.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '👻', label: 'QUESTIONS.Q6.LEFT' },
+    optionRight: { icon: '🦅', label: 'QUESTIONS.Q6.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🗣️', label: 'QUESTIONS.Q7.LEFT' },
+    optionRight: { icon: '🐾', label: 'QUESTIONS.Q7.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '💰', label: 'QUESTIONS.Q8.LEFT' },
+    optionRight: { icon: '⭐', label: 'QUESTIONS.Q8.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '👶', label: 'QUESTIONS.Q9.LEFT' },
+    optionRight: { icon: '⏳', label: 'QUESTIONS.Q9.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🔥', label: 'QUESTIONS.Q10.LEFT' },
+    optionRight: { icon: '💧', label: 'QUESTIONS.Q10.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🥷', label: 'QUESTIONS.Q11.LEFT' },
+    optionRight: { icon: '🏴‍☠️', label: 'QUESTIONS.Q11.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🗡️', label: 'QUESTIONS.Q12.LEFT' },
+    optionRight: { icon: '🏹', label: 'QUESTIONS.Q12.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '☕', label: 'QUESTIONS.Q13.LEFT' },
+    optionRight: { icon: '�', label: 'QUESTIONS.Q13.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🐱', label: 'QUESTIONS.Q14.LEFT' },
+    optionRight: { icon: '🐶', label: 'QUESTIONS.Q14.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '☀️', label: 'QUESTIONS.Q15.LEFT' },
+    optionRight: { icon: '❄️', label: 'QUESTIONS.Q15.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '📖', label: 'QUESTIONS.Q16.LEFT' },
+    optionRight: { icon: '🎬', label: 'QUESTIONS.Q16.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🧠', label: 'QUESTIONS.Q17.LEFT' },
+    optionRight: { icon: '❤️', label: 'QUESTIONS.Q17.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '☀️', label: 'QUESTIONS.Q18.LEFT' },
+    optionRight: { icon: '🌙', label: 'QUESTIONS.Q18.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🌲', label: 'QUESTIONS.Q19.LEFT' },
+    optionRight: { icon: '�️', label: 'QUESTIONS.Q19.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🐆', label: 'QUESTIONS.Q20.LEFT' },
+    optionRight: { icon: '🐘', label: 'QUESTIONS.Q20.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🎓', label: 'QUESTIONS.Q21.LEFT' },
+    optionRight: { icon: '💪', label: 'QUESTIONS.Q21.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '⚖️', label: 'QUESTIONS.Q22.LEFT' },
+    optionRight: { icon: '😊', label: 'QUESTIONS.Q22.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '📝', label: 'QUESTIONS.Q23.LEFT' },
+    optionRight: { icon: '🎭', label: 'QUESTIONS.Q23.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '👤', label: 'QUESTIONS.Q24.LEFT' },
+    optionRight: { icon: '👥', label: 'QUESTIONS.Q24.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '👑', label: 'QUESTIONS.Q25.LEFT' },
+    optionRight: { icon: '🛡️', label: 'QUESTIONS.Q25.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '⚔️', label: 'QUESTIONS.Q26.LEFT' },
+    optionRight: { icon: '🛡️', label: 'QUESTIONS.Q26.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🔮', label: 'QUESTIONS.Q27.LEFT' },
+    optionRight: { icon: '💻', label: 'QUESTIONS.Q27.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🐉', label: 'QUESTIONS.Q28.LEFT' },
+    optionRight: { icon: '🦄', label: 'QUESTIONS.Q28.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '�', label: 'QUESTIONS.Q29.LEFT' },
+    optionRight: { icon: '🐺', label: 'QUESTIONS.Q29.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🤖', label: 'QUESTIONS.Q30.LEFT' },
+    optionRight: { icon: '👽', label: 'QUESTIONS.Q30.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🚗', label: 'QUESTIONS.Q31.LEFT' },
+    optionRight: { icon: '�', label: 'QUESTIONS.Q31.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '👨‍🍳', label: 'QUESTIONS.Q32.LEFT' },
+    optionRight: { icon: '🍽️', label: 'QUESTIONS.Q32.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🎨', label: 'QUESTIONS.Q33.LEFT' },
+    optionRight: { icon: '🍿', label: 'QUESTIONS.Q33.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '💰', label: 'QUESTIONS.Q34.LEFT' },
+    optionRight: { icon: '🛍️', label: 'QUESTIONS.Q34.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🌅', label: 'QUESTIONS.Q35.LEFT' },
+    optionRight: { icon: '🌃', label: 'QUESTIONS.Q35.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '�', label: 'QUESTIONS.Q36.LEFT' },
+    optionRight: { icon: '🍟', label: 'QUESTIONS.Q36.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🔥', label: 'QUESTIONS.Q37.LEFT' },
+    optionRight: { icon: '❄️', label: 'QUESTIONS.Q37.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '⛰️', label: 'QUESTIONS.Q38.LEFT' },
+    optionRight: { icon: '🌊', label: 'QUESTIONS.Q38.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🏛️', label: 'QUESTIONS.Q39.LEFT' },
+    optionRight: { icon: '🚀', label: 'QUESTIONS.Q39.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '👁️', label: 'QUESTIONS.Q40.LEFT' },
+    optionRight: { icon: '💤', label: 'QUESTIONS.Q40.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '❤️', label: 'QUESTIONS.Q41.LEFT' },
+    optionRight: { icon: '💼', label: 'QUESTIONS.Q41.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🔒', label: 'QUESTIONS.Q42.LEFT' },
+    optionRight: { icon: '🦅', label: 'QUESTIONS.Q42.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '📚', label: 'QUESTIONS.Q43.LEFT' },
+    optionRight: { icon: '🔋', label: 'QUESTIONS.Q43.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🕊️', label: 'QUESTIONS.Q44.LEFT' },
+    optionRight: { icon: '⚖️', label: 'QUESTIONS.Q44.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🗣️', label: 'QUESTIONS.Q45.LEFT' },
+    optionRight: { icon: '👂', label: 'QUESTIONS.Q45.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🤖', label: 'QUESTIONS.Q46.LEFT' },
+    optionRight: { icon: '�', label: 'QUESTIONS.Q46.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '💻', label: 'QUESTIONS.Q47.LEFT' },
+    optionRight: { icon: '🎮', label: 'QUESTIONS.Q47.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🦸', label: 'QUESTIONS.Q48.LEFT' },
+    optionRight: { icon: '🦇', label: 'QUESTIONS.Q48.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '⚔️', label: 'QUESTIONS.Q49.LEFT' },
+    optionRight: { icon: '�', label: 'QUESTIONS.Q49.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🍕', label: 'QUESTIONS.Q50.LEFT' },
+    optionRight: { icon: '🍔', label: 'QUESTIONS.Q50.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🍰', label: 'QUESTIONS.Q51.LEFT' },
+    optionRight: { icon: '🥧', label: 'QUESTIONS.Q51.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🖊️', label: 'QUESTIONS.Q52.LEFT' },
+    optionRight: { icon: '✏️', label: 'QUESTIONS.Q52.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '📞', label: 'QUESTIONS.Q53.LEFT' },
+    optionRight: { icon: '💬', label: 'QUESTIONS.Q53.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🚶', label: 'QUESTIONS.Q54.LEFT' },
+    optionRight: { icon: '🏃', label: 'QUESTIONS.Q54.RIGHT' },
+  },
+  {
+    optionLeft: { icon: '🏆', label: 'QUESTIONS.Q55.LEFT' },
+    optionRight: { icon: '🎉', label: 'QUESTIONS.Q55.RIGHT' },
   },
 ];
 

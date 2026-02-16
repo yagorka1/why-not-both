@@ -1,0 +1,237 @@
+{
+  "HEADER": {
+    "TITLE": "Pick One"
+  },
+  "GAME": {
+    "QUESTION": "Question",
+    "VS": "VS",
+    "NEXT": "Next →"
+  },
+  "END_SCREEN": {
+    "TITLE": "You're done!",
+    "SUBTITLE": "All questions completed",
+    "RESTART": "Try again"
+  },
+  "QUESTIONS": {
+    "Q1": {
+      "LEFT": "By the sea — sunrises over the water, salty air and endless horizon",
+      "RIGHT": "In the mountains — silence at height, starry skies and crisp mountain air"
+    },
+    "Q2": {
+      "LEFT": "Lightning speed — instantly be anywhere",
+      "RIGHT": "Telepathy — read minds and understand people without words"
+    },
+    "Q3": {
+      "LEFT": "Astronaut — explore the vastness of space and discover new worlds",
+      "RIGHT": "Artist — create beauty and leave a mark in art"
+    },
+    "Q4": {
+      "LEFT": "Middle Ages — knights, castles and romance of medieval times",
+      "RIGHT": "Far future — flying cities and intergalactic travel"
+    },
+    "Q5": {
+      "LEFT": "Read books in a quiet library with a cup of hot coffee",
+      "RIGHT": "Play a musical instrument until morning, forgetting everything"
+    },
+    "Q6": {
+      "LEFT": "Invisibility — vanish at will and go unnoticed",
+      "RIGHT": "Flight — soar through the skies and see the world from above"
+    },
+    "Q7": {
+      "LEFT": "Speak all languages — communicate with anyone on Earth",
+      "RIGHT": "Talk to animals — understand what your pets are thinking"
+    },
+    "Q8": {
+      "LEFT": "Unlimited wealth but unknown — have everything but no fame",
+      "RIGHT": "World famous but struggling — everyone knows you but you scrape by"
+    },
+    "Q9": {
+      "LEFT": "Eternal youth — stay young forever but watch time pass",
+      "RIGHT": "Time travel — visit any era but age naturally"
+    },
+    "Q10": {
+      "LEFT": "Control fire — master the flames and heat",
+      "RIGHT": "Control water — command the tides and rivers"
+    },
+    "Q11": {
+      "LEFT": "Ninja — stealth, shadows and silent missions",
+      "RIGHT": "Pirate — freedom, seas and treasure hunting"
+    },
+    "Q12": {
+      "LEFT": "Master of sword — close combat and discipline",
+      "RIGHT": "Master of bow — precision and distance"
+    },
+    "Q13": {
+      "LEFT": "Coffee — energy and rich aroma to start the day",
+      "RIGHT": "Tea — calm and tradition in every cup"
+    },
+    "Q14": {
+      "LEFT": "Cats — independent and graceful companions",
+      "RIGHT": "Dogs — loyal and energetic friends"
+    },
+    "Q15": {
+      "LEFT": "Summer — sun, beach and warm nights",
+      "RIGHT": "Winter — snow, cozy evenings and fresh cold air"
+    },
+    "Q16": {
+      "LEFT": "Book — imagination and depth of story",
+      "RIGHT": "Movie — visual spectacle and shared experience"
+    },
+    "Q17": {
+      "LEFT": "Logic — facts, reason and structured thinking",
+      "RIGHT": "Emotion — feelings, intuition and heart-led decisions"
+    },
+    "Q18": {
+      "LEFT": "Day — brightness, activity and energy",
+      "RIGHT": "Night — mystery, quiet and reflection"
+    },
+    "Q19": {
+      "LEFT": "Forest — nature, solitude and green trees",
+      "RIGHT": "City — lights, people and endless opportunities"
+    },
+    "Q20": {
+      "LEFT": "Cheetah speed — run faster than anyone",
+      "RIGHT": "Elephant strength — lift the heaviest weights"
+    },
+    "Q21": {
+      "LEFT": "Smartest person alive — solve any problem",
+      "RIGHT": "Strongest person alive — physical dominance"
+    },
+    "Q22": {
+      "LEFT": "Always know the truth — even if it hurts",
+      "RIGHT": "Always be happy — even if it's an illusion"
+    },
+    "Q23": {
+      "LEFT": "Detailed plan — know every step ahead",
+      "RIGHT": "Improvisation — adapt to anything on the fly"
+    },
+    "Q24": {
+      "LEFT": "Solo adventure — total freedom and self-reliance",
+      "RIGHT": "Team mission — shared success and support"
+    },
+    "Q25": {
+      "LEFT": "Leader — guide others and take responsibility",
+      "RIGHT": "Follower — execute perfectly without the burden of choice"
+    },
+    "Q26": {
+      "LEFT": "All-out attack — aggression and power",
+      "RIGHT": "Impenetrable defense — patience and safety"
+    },
+    "Q27": {
+      "LEFT": "Magic — spells, potions and mystical forces",
+      "RIGHT": "Technology — gadgets, robots and scientific progress"
+    },
+    "Q28": {
+      "LEFT": "Dragon — ride a mythical beast of fire",
+      "RIGHT": "Unicorn — purity and magic healing"
+    },
+    "Q29": {
+      "LEFT": "Vampire — eternal night and elegance",
+      "RIGHT": "Werewolf — wild nature and brute strength"
+    },
+    "Q30": {
+      "LEFT": "Robot — logic and metal perfection",
+      "RIGHT": "Alien — mystery and knowledge of the stars"
+    },
+    "Q31": {
+      "LEFT": "Driver — control the journey yourself",
+      "RIGHT": "Passenger — relax and enjoy the view"
+    },
+    "Q32": {
+      "LEFT": "Master Chef — cook the best meals",
+      "RIGHT": "Food Critic — taste the best meals"
+    },
+    "Q33": {
+      "LEFT": "Creator — build something new",
+      "RIGHT": "Consumer — enjoy what others built"
+    },
+    "Q34": {
+      "LEFT": "Saver — stability and future planning",
+      "RIGHT": "Spender — enjoy the moment to the fullest"
+    },
+    "Q35": {
+      "LEFT": "Early Bird — sunrise and productive mornings",
+      "RIGHT": "Night Owl — moonlight and creative nights"
+    },
+    "Q36": {
+      "LEFT": "Sweet — candy, chocolate and desserts",
+      "RIGHT": "Salty — chips, nuts and savory snacks"
+    },
+    "Q37": {
+      "LEFT": "Heat — tropical beaches and sun",
+      "RIGHT": "Cold — snowy mountains and freshness"
+    },
+    "Q38": {
+      "LEFT": "Land — solid ground and hiking",
+      "RIGHT": "Sea — waves, swimming and sailing"
+    },
+    "Q39": {
+      "LEFT": "Past — witness history unfold",
+      "RIGHT": "Future — see what comes next"
+    },
+    "Q40": {
+      "LEFT": "Reality — truth and tangible world",
+      "RIGHT": "Dream — limitless imagination"
+    },
+    "Q41": {
+      "LEFT": "Love — connection and family",
+      "RIGHT": "Career — achievement and success"
+    },
+    "Q42": {
+      "LEFT": "Safety — comfort and predictability",
+      "RIGHT": "Freedom — adventure and risk"
+    },
+    "Q43": {
+      "LEFT": "Wisdom — understand everything",
+      "RIGHT": "Power — control everything"
+    },
+    "Q44": {
+      "LEFT": "Forgive — peace of mind",
+      "RIGHT": "Revenge — sweet justice"
+    },
+    "Q45": {
+      "LEFT": "Speak — share your thoughts",
+      "RIGHT": "Listen — learn from others"
+    },
+    "Q46": {
+      "LEFT": "Android — customization and freedom",
+      "RIGHT": "iPhone — simplicity and ecosystem"
+    },
+    "Q47": {
+      "LEFT": "PC — power and upgradeability",
+      "RIGHT": "Console — comfort and exclusives"
+    },
+    "Q48": {
+      "LEFT": "Marvel — superheroes and epic sagas",
+      "RIGHT": "DC — dark heroes and iconic villains"
+    },
+    "Q49": {
+      "LEFT": "Star Wars — the force and lightsabers",
+      "RIGHT": "Star Trek — exploration and logic"
+    },
+    "Q50": {
+      "LEFT": "Pizza — cheesy goodness",
+      "RIGHT": "Burger — juicy and fulfilling"
+    },
+    "Q51": {
+      "LEFT": "Cake — fluffy and creamy",
+      "RIGHT": "Pie — fruity and crusty"
+    },
+    "Q52": {
+      "LEFT": "Pen — permanent and classic",
+      "RIGHT": "Pencil — flexible and erasable"
+    },
+    "Q53": {
+      "LEFT": "Call — hear the voice",
+      "RIGHT": "Text — precise and asynchronous"
+    },
+    "Q54": {
+      "LEFT": "Walk — enjoy the scenery slowly",
+      "RIGHT": "Run — feel the speed and heart beat"
+    },
+    "Q55": {
+      "LEFT": "Win — glory and victory",
+      "RIGHT": "Fun — laughter and enjoyment regardless of result"
+    }
+  }
+}

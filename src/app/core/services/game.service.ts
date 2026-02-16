@@ -47,12 +47,12 @@ export class GameService {
     () => this._gameState() === GameState.ENDED
   );
 
-  selectOption(side: OptionSide): void {
+  public selectOption(side: OptionSide): void {
     this._chosenSide.set(side);
     this._gameState.set(GameState.CHOSEN);
   }
 
-  nextQuestion(): void {
+  public nextQuestion(): void {
     const nextIndex = this._currentQuestionIndex() + 1;
 
     if (nextIndex >= GAME_CONFIG.TOTAL_QUESTIONS) {
@@ -64,7 +64,7 @@ export class GameService {
     }
   }
 
-  restart(): void {
+  public restart(): void {
     this._currentQuestionIndex.set(0);
     this._chosenSide.set(null);
     this._gameState.set(GameState.PLAYING);

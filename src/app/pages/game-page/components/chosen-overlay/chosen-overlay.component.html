@@ -8,7 +8,8 @@
 >
   <div class="chosen-overlay__icon">{{ option()?.icon }}</div>
 
-  <div class="chosen-overlay__text">{{ option()?.label }}</div>
+  <div class="chosen-overlay__text">{{ option()?.label | translate }}</div>
   
-  <button class="chosen-overlay__btn" (click)="onNext()">Далее →</button>
+  <button class="chosen-overlay__btn" (click)="onNext()">{{ 'GAME.NEXT' | translate }}</button>
 </div>
+

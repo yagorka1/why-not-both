@@ -1,5 +1,6 @@
 import { NgIf } from '@angular/common';
 import { Component, inject } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 import { ANIMATION } from '../../core/constants/game.constants';
 import { OptionSide } from '../../core/enums/option-side.enum';
 import { ConfettiService } from '../../core/services/confetti.service';
@@ -15,6 +16,7 @@ import { QuestionCounterComponent } from './components/question-counter/question
   standalone: true,
   imports: [
     NgIf,
+    TranslatePipe,
     CardComponent,
     HeaderComponent,
     QuestionCounterComponent,

@@ -1,12 +1,13 @@
 import { NgClass, NgStyle } from '@angular/common';
 import { Component, computed, input, output } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 import { OptionSide } from '../../../../core/enums/option-side.enum';
 import { QuestionOption } from '../../../../core/interfaces/question-option.interface';
 
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [NgClass, NgStyle],
+  imports: [NgClass, NgStyle, TranslatePipe],
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss',
 })

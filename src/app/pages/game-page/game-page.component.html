@@ -19,7 +19,7 @@
         (selected)="onCardSelected($event)"
       />
 
-        <div class="vs">VS</div>
+        <div class="vs">{{ 'GAME.VS' | translate }}</div>
 
       <app-card
         [option]="gameService.currentQuestion().optionRight"
@@ -31,7 +31,6 @@
   </div>
 </div>
 
-<!-- Chosen overlay -->
 <app-chosen-overlay
   [visible]="gameService.isChosen()"
   [side]="gameService.chosenSide()"
@@ -39,5 +38,6 @@
   (next)="onNext()"
 />
 
-<!-- End screen -->
-<app-end-screen *ngIf="gameService.isEnded()" (restart)="onRestart()" />
+@if (gameService.isEnded()) {
+  <app-end-screen (restart)="onRestart()" />
+}
